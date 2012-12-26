@@ -135,9 +135,9 @@ safety strap
 without the player's knowledge.
 
  1.5.1 	When a player hears a Time Stop called, they should IMMEDIATELY stop 
-what they are doing, take a knee, close their eyes, and begin making meaningless 
-noise. The object of all this is to prevent you from seeing something you shouldn’t 
-yet see that would upset the plot or ruin the surprise for you.
+what they are doing, remain stationary, close their eyes, and begin making 
+meaningless noise. The object of all this is to prevent you from seeing something 
+you shouldn’t yet see that would upset the plot or ruin the surprise for you.
 
  1.5.2 	Players in a Time Stop should not speak to each other, look around, or 
 move. 
@@ -190,12 +190,13 @@ your character dies or you permanently leave the game. (Looking at it another
 way, character theft is more a matter of game props changing hands between 
 characters than stealing from another person.)
 
- 1.7.5 	Non-numbered weapons, armor, garb and equipment may not be stolen. 
-(An easy example of this is a character that has a wooden chest that he keeps 
-some of his belongings in. While the things inside that chest may be in game 
-items, and hence fair game for stealing, the box itself usually is not. If you wish to 
-steal the items inside that box, you may do so, but you cannot simply pick up the 
-box and walk off with it. You also may not damage the box to get inside it.)
+ 1.7.5 	Non-numbered weapons, armor, garb and equipment may not be stolen and 
+must be kept within 10-20 feet of the owner if possible. (An easy example of this 
+is a character that has a wooden chest that he keeps some of his belongings in. 
+While the things inside that chest may be in game items, and hence fair game for 
+stealing, the box itself usually is not. If you wish to steal the items inside that box, 
+you may do so, but you cannot simply pick up the box and walk off with it. You 
+also may not damage the box to get inside it.)
 
  1.7.6 	Real world personal items should NEVER be touched. Things like 
 medicines, wallets/money, car keys, or cell phones are all off limits. Players who 
@@ -1072,10 +1073,11 @@ Advanced Lore
 3
 Lore
 Master Merchant
-1
+4
+Merchant, ID Magic, Estimate Value, 
+Tradesman
 Merchant
-Merchant
-1
+2
 --
 Racial Languages
 1
@@ -1839,15 +1841,20 @@ blunt damage.
 the prerequisite for Alchemy.
 
  3.15.19 	Lore allows a character to ask one in-game related question to Game 
-Masters between game by e-mailing the question to 
-lorerequest@kingdomsofnovitas.com
+Masters between game by e-mailing the question to lore@mvgc.net
 
  3.15.20 	Advanced Lore allows the character to ask two questions between games 
 instead of just one.
 
- 3.15.21 	Merchant allows a character to turn in 20 coin per event for XP.
+ 3.15.21 	Merchant allows a character to turn in 100 coin per event for XP.
 
- 3.15.22 	Master Merchant allows a character to turn in 30 coin per event for XP.
+ 3.15.22 	Master Merchant allows a character to turn in any amount of coin for XP 
+per event. 
+
+ 3.15.22.1 	Master Merchants may turn in magic items for new magic items at 
+a 2-1 cost. For example: a 20 point weapon worth 200 coin can be turned in to 
+buy any number of items worth up to 100 coin total.
+ 3.15.22.2 	There is no limit to this ability.
 
  3.15.23 	Racial Languages allow a character to read, speak, and write in that 
 language.
@@ -3082,8 +3089,6 @@ Arrows, Bolts, Thrown Weapons
 0
 Magic
 2
-Spell Striking
-2
 Mage Blade
 4
 Martial
@@ -3095,20 +3100,22 @@ Master Work
 Imbue with a 1st lvl Spell
 4
 Goblin Iron
-5
+8
 Silver
 8
 Imbue with a 2nd lvl Spell
 8
 Nature Damage
-10
+8
 Imbue with a 3rd lvl Spell
 12
 Great Weapon
-15
-Elven Steel
 16
+Elven Steel
+20
 Master’s Staff of Wizardry 
+24
+Master’s Blade
 24
 
 
@@ -3122,63 +3129,64 @@ enhancement, the other three projectiles created are simply Magic.
 Silver, Elven Steel) are created in packs of four of the special material.
 
 
- 6.24 	Spellstriking weapons are those that can deliver a spell effect which is imbued in 
-the weapon through a weapon strike. (Cannot channel spells not within the weapon).
- 6.24.1 	When casting a spell imbued into a weapon with the Spellstriking ability, 
-the weapon must be wielded, but no other free hand is required.
+ 6.24 	Mageblades are weapons that allow the wielder to channel their own spells 
+through it 
+ 6.24.1 	When casting a spell using a weapon with the Mageblade ability, the 
+weapon must be wielded, but no other free hand is required.
 
- 6.24.2 	The imbued spell can be channeled into the blade, charging it with an aura 
-that delivers the spell's effect (instead of damage) on the next successful weapon 
-hit.
+ 6.24.2 	The spell can be channeled into the blade, charging it with an aura that 
+delivers the spell's effect (instead of damage) on the next successful weapon hit.
 
- 6.24.3 	Spellstriking bows and crossbows deliver their spells by arrow or bolt, not 
+ 6.24.3 	Mageblade bows and crossbows deliver their spells by arrow or bolt, not 
 by hitting with the weapon itself.
 
- 6.24.4 	Only legal weapon hits will discharge the spell from a Spellstriking 
-weapon.
+ 6.24.4 	Only legal weapon hits will discharge the spell from a Mageblade weapon.
 
- 6.24.5 	Immunity to the weapon's damage type will not prevent a Spellstriking 
-spell from discharging.
+ 6.24.5 	Immunity to the weapon's damage type will not prevent a Mageblade spell 
+from discharging.
 
  6.24.6 	Any standard defense against spell effects or magic darts works as normal 
-against Spellstriking spells.
+against Mageblade spells.
 
  6.24.7 	One must add the "Strike" descriptor when calling damage from a 
-spellstriking weapon channeling a spell which deals damage.  (For example, you 
-cast Slaying Swarm from a spellstriking weapon; you would call "4 Magic Slay 
+Mageblade weapon channeling a spell which deals damage.  (For example, you 
+cast Slaying Swarm into a Mageblade weapon; you would call "4 Magic Slay 
 Strike" for your next two legal hits. Note that the original spell create two darts 
 and therefore allows the caster to hit twice with the spell’s ability.)
 
  6.24.8 	If no legal hit is landed within 1 minute of the spell being cast from a 
-Spellstriking weapon, the charge dissipates and is wasted.
+Mageblade weapon, the charge dissipates and is wasted.
 
  6.24.9 	Only spells that normally generate one or more tagbags are valid to be cast 
-with Spellstriking.
+with Mageblade.
 
- 6.24.10 	Any spell that does not generate tagbags must be cast normally without use 
-of the Spellstriking ability.
+ 6.24.10 	Any spell that generates more than one tagbag generates the same number 
+of charges on the Mageblade weapon.
 
- 6.24.11 	Any spell that generates more than one tagbag generates the same number 
-of charges on the Spellstriking weapon.
-
- 6.24.12 	With a Spellstriking weapon, only one charge is delivered with each legal 
+ 6.24.11 	With a Mageblade weapon, only one charge is delivered with each legal 
 hit, with each successive hit delivering another charge until they are all expended.
 
+ 6.25 	
 
- 6.25 	Mageblades are weapons that allow the wielder to channel their own spells 
-through it like a Spellstriking weapon.
-
- 6.25.1 	Spells cast through a Mageblade must be one that the user knows, and 
-casts with their own power points.
-
- 6.26 	Players must add the "Strike" descriptor when calling damage from a Mageblade 
-weapon channeling a spell which deals damage. (For example, you cast Eldritch 
-Stone from a spellstriking weapon; you would call "4 Elven Steel Strike" for your next 
-two legal hits. Note that the original spell create two darts and therefore allows the 
-caster to hit twice with the spell’s ability.)
-
- 6.27 	A weapon imbued with any 1st, 2nd, or 3rd  level spell is considered Magic for no 
+ 6.26 	A weapon imbued with any 1st, 2nd, or 3rd  level spell is considered Magic for no 
 additional cost.
+
+ 6.27 	Master Blades are weapons of extreme quality only usable by Weapon Masters.
+
+ 6.27.1 	Masters Blades come with 16 craft points worth of extra attributes when 
+they are created.
+
+ 6.27.2 	Master Blades are always counted as ‘Masterwork’.
+
+ 6.27.3 	Masters Blades provide an extra ‘Master Stroke’ slay or pierce call every 
+game day to a single weapon master.
+
+ 6.27.4 	A Weapon Master cannot use this benefit from multiple Masters Blades
+
+ 6.27.5 	Masters Blades count as a weapon and a slotted item of its own type.
+
+ 6.27.6 	The prop for a Masters Blade must be of an above average cosmetic 
+quality and must be approved by P&A
 
  6.28 	Staves of Wizardry are attuned to a single school of magic.
 
@@ -3198,6 +3206,9 @@ when not carried in your hand(s).
 
  6.28.6 	To make a Staff of Wizardry, the crafter must be a Master Craftsman of 
 both Weaponsmithing and Ornamenting.
+
+ 6.28.7 	Staves of Wizardry come with 16 craft points worth of extra abilities when 
+they are created.
 
  6.29 	The player is responsible for providing their own props for Weaponsmtih crafted 
 items.
@@ -3936,14 +3947,15 @@ glue, tape, or some other adhesive.
 rejected.
 
 
- 7.9 	Non-Martial Weapons are weapons that are 30 inches or less in length.
+ 7.9 	Non-Martial Weapons are weapons that are 35 inches or less in length.
 
  7.9.1 	Non-Martial Weapons may be used in one hand or two.
 
- 7.10 	Martial Weapons are longer than 30 inches but not more than 42 inches long.
+ 7.10 	Martial Weapons are longer than 35 inches but not more than 45 inches long.
 
  7.10.1 	Martial Weapons may be used in one hand or two.
- 7.11 	Great Weapons are longer than 42 inches.
+
+ 7.11 	Great Weapons are longer than 45 inches.
 
  7.11.1 	Great Weapons must be used with two hands.
 
@@ -3962,7 +3974,7 @@ delivered as a straight thrust that is immediately withdrawn back to both hands.
  7.12.2 	Thrown weapons must weigh no more than 6 ounces.
 
  7.12.3 	Thrown weapons must be at least 6 inches in one dimension, and no longer 
-than 30 inches.
+than 35 inches.
 
  7.12.4 	Thrown weapons must look like weapons, either knives, axes, or some 
 other historical or fantasy weapon. No throwing “rocks”, “disks” or “paddles” are 
@@ -3988,7 +4000,7 @@ encouraged to incorporate some open-cell foam into the ends of their javelin
 designs.
 
  7.14 	Throwing Weapon Masters with Great Weapon Training may use throwing spears, 
-which are over 42 inches long but less than 84 inches long, and may be used as a 
+which are over 45 inches long but less than 84 inches long, and may be used as a 
 Great Weapon in melee.
 
  7.14.1 	Throwing spears may be thrown for a character's normal melee damage 
@@ -4478,7 +4490,7 @@ times.
  8.2.1 	Lead NPCs must follow all NPC rules as well as lead NPC rules.
  8.2.2 	Lead NPCs will lead the group of NPCs once outside of logistics
  8.2.3 	Lead NPCs will carry a time piece with them while outside of logistics.
- 8.2.4 	Lead NPCs will carry a walkie talkie with them while outside of logistics.
+ 8.2.4 	Lead NPCs will carry a cell phone with them while outside of logistics.
  8.2.5 	Lead NPCs will help the GM gather and organize other NPCs
  8.2.6 	Lead NPCs will report to the GM once back at logistics to give them an 
 After Action Report.
