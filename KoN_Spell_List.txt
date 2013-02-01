@@ -35,10 +35,12 @@ Monster Manual. This Monstrous effect mitigates all
 damage done to the Abomination, including damage 
 done to armor and Magic Armor. In effect, anything 
 that deals damage to the recipient will only deal one 
-point (unless it has the ‘Slay’ descriptor). Creatures 
-under the effects of an Abomination spell may freely 
-enter an area under the effects of an Unhallow spell 
-for the duration of the Abomination effect. 
+point (unless it has the ‘Slay’ descriptor). Monstrous 
+Creatures may freely enter an area under the effects 
+of an Unhallow spell for the duration spell. 
+Monstrous creatures are immune to Pin effects and 
+Pit traps, and can deal up to four damage while dual 
+wielding weapons.
 
 Anti-Magic Aura 
 Level: 4 
@@ -52,7 +54,7 @@ the recipient of the spell that absorbs all magic spells,
 harmful or beneficial (including Restorative magic). 
 The spell lasts for one minute and automatically 
 negates any magic effects, or attacks with the 'Strike' 
-descriptor, that hit the character. The player is 
+descriptor, which hit the character. The player is 
 required to announce “No effect” in a loud voice 
 when they use this aura to ignore a spell. Characters 
 protected by this spell are required to wear a blue 
@@ -92,35 +94,36 @@ Type: Aegis
 Level: 5 
 Duration: Game Day 
 Range: Touch 
-Dispel: No 
+Dispel: Yes 
 
    This spell crates a powerful magic field around 
 the recipient of the spell that reflects offensive magic 
 spells. The spell has one use and automatically 
-reflects the first two (2) offensive magic attack, or 
-attack with the 'Strike' descriptor, that hits the 
+reflects the first two (2) offensive magic attacks, or 
+attacks with the 'Strike' descriptor that hit the 
 character. The spell is automatically reflected back at 
 the character that cast the original spell and does not 
 require the use of a tag bag or weapon (in the case of 
-touch ranged attacks). If the original caster of the 
-spell is also protected by an Aura of Reflection, the 
-spell is dispelled and has no further effect. If the 
-original caster is no longer in range of the spell or out 
-of the vision of the character with Aura of Reflection, 
-the offensive spell simply ends. The character has no 
-choice in this matter and may not choose to save the 
-Aura of Reflection for a later, perhaps more powerful 
-spell. A player is required to announce “Reflect!” in a 
-loud voice when this spell is used. Characters 
-protected by this spell are required to wear a blue 
-armband as described in the chapter on magic and 
-spell use. Aura of Reflection has no effect on attacks 
-from magical weapons or creatures. Aura of 
-Reflection does reflect creature special abilities if 
-they are defined as a “spell effect” such as the fear 
-ability of a ghost. Some creatures are immune to their 
-own special abilities and in this case a reflected 
-ability is simply dispelled. 
+touch ranged attacks). The ‘Caster’ of a reflected 
+spell is the defender. If the original caster of the spell 
+is also protected by an Aura of Reflection, the spell is 
+dispelled and has no further effect. If the original 
+caster is no longer in range of the spell or out of the 
+vision of the character with Aura of Reflection, the 
+offensive spell simply ends. 
+   The character has no choice in this matter and 
+may not choose to save the Aura of Reflection for a 
+later, perhaps more powerful spell. A player is 
+required to announce “Reflect!” in a loud voice when 
+this spell is used. Characters protected by this spell 
+are required to wear a blue armband as described in 
+the chapter on magic and spell use. Aura of 
+Reflection has no effect on attacks from magical 
+weapons or creatures. Aura of Reflection does reflect 
+creature special abilities if they are defined as a “spell 
+effect” such as the fear ability of a ghost. Some 
+creatures are immune to their own special abilities 
+and in this case a reflected ability is simply dispelled. 
 
 Banish
 Type: Nature
@@ -224,7 +227,7 @@ will automatically dispel and is wasted.
 Devastation 
 Type: Battle 
 Level: 5 
-Duration: Insant 
+Duration: Instant 
 Range: Tag Bag 
 Dispel: Yes 
 
@@ -248,6 +251,21 @@ take the full four points of damage from a
 Devastation dart. The damage call for this spell is 
 “Four Magic Slay!”
  
+Diagnosis 
+Type: Restorative 
+Level: 1 
+Duration: instant 
+Range: touch 
+Dispel: n/a 
+
+This spell allows the caster to immediately discern all 
+ailments afflicting the target, including poisons, 
+disease, madness, magical afflictions or sickness. If 
+cast upon a corpse, it will reveal the cause and 
+method of death and whether or not there is a spark 
+present. Casting Diagnosis protects the caster from 
+catching any harmful afflictions while being used to 
+examine the subject.
 
 Disengage 
 Type: Compulsion 
@@ -286,14 +304,16 @@ Type: Enchantment
 Level: 4
 Duration: Instant
 Range: Tag Bag
-Dispel: n/a
+Dispel: N/A
 
    This spell creates a powerful dart of focused anti-
 magic that the caster can use to disrupt the magical 
-defenses of a target. When a target  not protected by 
-Aura of Reflection is hit by this spell, all magical 
+defenses of a target. When a target not protected by 
+Anti Magic Aura is hit by this spell, all magical 
 effects currently active on the person, including their 
-items are dispelled. 
+items are dispelled. Tinkering Items are also 
+suppressed for ten minutes. After that time they must 
+be activated again to be used.
 	The caster must throw the dart for the spell to 
 take effect and may not simply touch the tag bag to a 
 target. Examples of magical effects include Curse, 
@@ -317,7 +337,7 @@ with a tag bag. If there is more than one effect that
 can be affected by Dispel Magic the caster must 
 know and designate the one he wants dispelled. As a 
 rule of thumb, Dispel Magic affects only creatures 
-and their spells. 
+and their spells.
 
 Dissipate
 Type: Nature
@@ -343,7 +363,7 @@ dissipated character even if they see the caster
 disappear into thin air. Witnesses dismiss this magic 
 effect as losing site of the caster in the woods or 
 some other rationale. The spell ends if the caster 
-decides to reform, if the blue flag drops below their
+decides to reform, if the blue flag drops below their 
 head or the when the duration of the spell expires. 
 The character must reform in the same spot they 
 dissipated. This spell does not allow the caster to 
@@ -362,84 +382,19 @@ Dispel: Yes
 concentrated willpower. A target struck with a 
 Dominate spell falls under the direct control of the 
 caster, much in the same manner as an Undead under 
-the control of a Lesser Command spell. Only three 
-commands are legal to use with the controlled being. 
-They are, “Attack”, “Defend”, or “Move”. See the 
-spell description for Lesser Command for full 
-explanation of these commands. 
-   In addition, living creatures who are Dominated 
-are allowed to deal themselves a killing blow at any 
-time to represent their final act of defiance to their 
-controller, or to avoid taking an action they cannot 
-morally accept, such as murdering someone. 
-       
-Eldritch Stone
-Type: Enchantment
-Level: 3
-Duration: Instant
-Range: Tag Bag
-Dispel: n/a
-
-   This spell creates two shimmering darts 
-enchanted with eldritch power. Each dart deals four 
-points of Elven Steel damage to the area hit on the 
-target. Hits to an opponent’s shield or weapon count 
-as hits to the arm holding the weapon or shield. The 
-player is not allowed to pass the dart off to other 
-players.  The player is also not allowed to set the dart 
-down (this includes dropping the dart) and doing so 
-will dispel the dart. The dart must be thrown to 
-activate so the caster may not simply touch a target 
-with a dart to inflict damage. One minute after 
-casting this spell the darts are automatically dispels 
-and so is wasted.
-
-Nature’s Command
-Type: Nature
-Level: 4
-Duration: Instant
-Range: Tag Bag
-Dispel: Yes
-
-   Nature’s Command creates two darts of elemental 
-power that allow the caster to exert control over 
-lesser elementals, plants, lesser fae, etc. The spell has 
-no effect on greater elementals or high fae. If the dart 
-strikes a target it then falls under the direct control of 
-the caster for ten minutes or until destroyed. Only 
-three commands are legal to use with the controlled 
-target. They are “Attack”, “Defend”, or “Move”. 
-Attack: The attack command allows the caster to 
-point at a target and compels the creature to attack it. 
-The commanded creature will attack any target. It 
-will attack the target without question or concern for 
-its own preservation and will use every available 
-power and ability to carry out the attack. It is possible 
-to word the attack command in a fashion that will 
-compel the creature to attack multiple targets. For 
-example the caster could order the creature to “attack 
-all humans”. 
-Defend: A defend command works like an attack 
-command but the caster orders the creature to defend 
-a specific person, place, or thing. In this case the 
-creature will attack anything that comes near the 
-object or person it was ordered to defend. It will 
-never move more than five feet from the object it was 
-ordered to defend. Like an attack command it is 
-possible to word the defend order in a fashion that 
-will compel the creature to defend multiple targets or 
-large areas (e.g. the caster could order the creature to 
-“defend all living things in the town”).
-Move: A move command simply compels the 
-creature to move in a direction of the caster’s choice 
-for the duration of the spell. It is legal for the caster 
-to order the creature to follow them or walk in front 
-of them. It will move at any speed the caster desires 
-and it is physically able to do. The creature will not 
-perform even the simplest of actions such as the 
-opening of a door or dropping of weapons. The 
-controlled creature will not attack the caster that 
-controls it unless ordered to do so.
+the control of a Lesser Command spell. The target 
+has no knowledge that they are under a dominate 
+spell and must RP accordingly. Only three commands 
+are legal to use with the controlled being. They are, 
+“Attack”, “Defend”, “Move”, or ‘Stop”(as in “stop 
+talking”). See the spell description for Lesser 
+Command for full explanation of these commands. 
+       In addition, living creatures who are 
+dominated are allowed to deal themselves a killing 
+blow at any time to represent their final act of 
+defiance to their controller, or to avoid taking an 
+action they cannot morally accept, such as murdering 
+someone. 
 
 Elemental Dart 
 Type: Nature 
@@ -468,7 +423,7 @@ dispel the dart. The Elemental Darts must be thrown
 to activate so the caster may not simply touch a target 
 with a dart to inflict damage. One minute after 
 casting this spell the Elemental Darts automatically 
-dispels and are wasted. 
+dispels and is wasted. 
 
 Elemental Weapon 
 Type: Nature 
@@ -596,17 +551,16 @@ Duration: Ten Minutes
 Range: Touch
 Dispel: Yes
 
-   This spell makes its target appear to be a
-lesser undead to other undead. To other living
-creatures, the target appears normal. The target gains
-no undead abilities, benefits or drawbacks. The
-recipient of the spell must choose what type of lesser
-undead to appear as when the spell is cast.
+   This spell makes its target appear to be a lesser 
+undead to other undead. To other living creatures, the 
+target appears normal. The target gains no undead 
+abilities, benefits or drawbacks. The recipient of the 
+spell must choose what type of lesser undead to 
+appear as when the spell is cast.
    Note that creatures under the effects of Ghastly 
-Visage may freely enter an area under the
-effects of an Unhallow spell for the duration of the
-Ghastly Visage effect.
-
+Visage may freely enter an area under the effects of 
+an Unhallow spell for the duration of the Ghastly 
+Visage effect.
 
 Greater Command 
 Type: Necromancy 
@@ -638,17 +592,17 @@ Duration: Ten Minutes
 Range: Tag Bag
 Dispel: Yes
 
-   This spell creates a dart of magical energy
-that is hurled at a target. If struck, the target is unable
-to utilize extraplanar movement and effects or
-magical disguises. Grounding prevents or dispels the
+   This spell creates a dart of magical energy that is 
+hurled at a target. If struck, the target is unable to 
+utilize extraplanar movement and effects or magical 
+disguises. Grounding prevents or dispels the 
 following spells:
 *	?Dissipate
 *	?Banish
 *	?Reap Spirit
 *	?Ghastly Visage
 *	?Ley Lines
-Note that Grounding can only prevent the effects of
+Note that Grounding can only prevent the effects of 
 casting Dissipate, Reap Spirit or Ley Lines, it cannot 
 dispel those spells.
 
@@ -657,7 +611,7 @@ Type: Restoration
 Level: 1
 Duration: Instant
 Range: Touch
-Dispel: n/a
+Dispel: N/A
 
    This spell fills the recipient with pure life force 
 that is capable of healing minor injuries. This spell 
@@ -680,7 +634,7 @@ Type: Restorative
 Level: 3 
 Duration: Instant 
 Range: Touch 
-Dispel: n/a 
+Dispel: N/A 
 
    This spell fills the recipient with an incredibly 
 pure, powerful life force that is capable of healing 
@@ -700,7 +654,7 @@ from a disease or the effects of poison unless they are
 first cured with a Purify Spirit spell.
 
 Improved Magic Armor
- 
+
 Type: Aegis 
 Level: 3 
 Duration: Game Day or until expended 
@@ -715,22 +669,18 @@ protection. If Improved Magic Armor is cast on a
 target that already has Magic Armor, this spell 
 effectively dispels and replaces the Magic Armor 
 spell already active, wasting it. 
-       
-       
-       
-       
-       
+
 Lesser Command
 Type: Necromancy
 Level: 4
 Duration: Ten Minutes
 Range: Tag Bag
 Dispel: Yes
-   Lesser Command creates four darts of
-necromantic power that allow the caster to exert
-control over lesser undead creatures. The spell has no
-effect on undead lords or greater undead. If the dart
-strikes a lesser undead it then falls under the direct
+   Lesser Command creates four darts of 
+necromantic power that allow the caster to exert 
+control over lesser undead creatures. The spell has no 
+effect on undead lords or greater undead. If the dart 
+strikes a lesser undead it then falls under the direct 
 control of the caster for ten minutes or until 
 destroyed. Only three commands are legal to use with 
 the controlled undead. They are, “Attack”, “Defend”, 
@@ -748,33 +698,31 @@ For example the caster could order the undead to,
 Defend: A defend command works like an attack 
 command, but the caster orders the undead to defend 
 something such as a person. In this case the undead 
-will attack anything that comes near the object or
+will attack anything that comes near the object or 
 person it was ordered to defend. The undead will 
 never move more than five feet from the object it was 
 ordered to defend. Like an attack command it is 
 possible to word the defend order in a fashion that 
-will compel the undead to defend multiple targets or
+will compel the undead to defend multiple targets or 
 large areas. For example, the caster could order the 
 undead to, “defend all living things in the town”.
 Move: A move command simply compels the undead 
 to move in a direction of the caster’s choice for the 
 duration of the spell. It is legal for the caster to order 
 the undead to follow them or walk in front of them. 
-The undead will move at any speed the caster
-desires and it is physically able to do. The undead 
-will only walk/run/float when under orders to move. 
-The undead is not capable of climbing, crawling, 
+The undead will move at any speed the caster desires 
+and it is physically able to do. The undead will only 
+walk/run/float when under orders to move. The 
+undead is not capable of climbing, crawling, 
 swimming or any other sort of movement. The 
 undead will not perform even the simplest of action 
-such as the opening of a door or dropping their
+such as the opening of a door or dropping their 
 weapons. The undead will move into a situation that 
 might cause it harm or injury, such as ordering a 
 zombie to walk into an open pit.
-The controlled undead will not attack the
-caster that controls it unless for some reason they
-order it to do so.
-
-
+The controlled undead will not attack the caster that 
+controls it unless for some reason they order it to do 
+so.
 
 Ley Lines
 Type: Nature
@@ -796,26 +744,26 @@ events (except with GM permission). It must be a
 static physical location, such as “this large rock” or 
 “this big tree”, and not another person or object.
    When casting this spell, upon completion of the 
-incant the caster is instantly removed from that  
+incant the caster is instantly removed from that 
 particular encounter and may not rejoin it for the 
-duration of the event. If necessary call a game hold to  
+duration of the event. If necessary call a game hold to 
 remove yourself from the area. The caster is now out 
 of game until he reaches his binding location, at 
 which time he reappears. The caster should be 
 marked with orange to signify that he is out of game. 
-A Game Master may require you to remain out of  
+A Game Master may require you to remain out of 
 game for a longer period of time. You must have 
 empty hands when traveling. Any items that are to 
 travel with you must be secured on your person. Only 
 you may travel along the ley lines and you may not 
 carry another person, or cast this spell upon another 
 person.
-   The spell Grounding prevents this spell from
+   The spell Grounding prevents this spell from 
 functioning, and completing this spell while under 
 the effects of a Grounding spell wastes the Magic 
 Power with no effect.
-   While it is possible to scribe Ley Lines onto
-a scroll, there are limitations to this because of the 
+   While it is possible to scribe Ley Lines onto a 
+scroll, there are limitations to this because of the 
 magical mechanics of the spell. Once scribed, such a 
 scroll will only work for the caster who produced it, 
 and no one else.
@@ -825,21 +773,38 @@ Type: Battle
 Level: 4
 Duration: Instant
 Range: Tag Bag
-Dispel: n/a
+Dispel: N/A
 
    This spell creates four (4) magic darts to be 
 thrown at a target inflicting damage. The target hit by
 a maelstrom  receives four points of Magic damage 
-per dart to the area hit. Hits to an opponent’s shield 
-or weapon count as hits to the arm holding the 
-weapon or shield. The player is not allowed to set the
-dart down (this includes dropping the dart) and doing
-so will dispel the dart. The darts must be thrown to
-activate so the caster may not simply touch a target
-with a dart to inflict damage. One minute after
-casting this spell the darts automatically dispel and so
+per dart to the area hit. Any hits to an opponent’s 
+shield or weapon count as hits to the arm holding the 
+weapon or shield. The player is not allowed to set the 
+dart down (this includes dropping the dart) and doing 
+so will dispel the dart. The darts must be thrown to 
+activate so the caster may not simply touch a target 
+with a dart to inflict damage. One minute after 
+casting this spell the darts automatically dispel and so 
 are wasted.
 
+Mageblade
+Type: Battle
+Level: 2
+Duration: 10 minutes
+Range: Target Weapon Touched
+
+	This spell imbues the targeted weapon with the 
+ability to function as a Mageblade.  A Mageblade lets 
+a spell be channeled through the weapon instead of a 
+tagbag.  For instance, Romulus the Battle Mage could 
+channel a Slaying Swarm through his Mageblade, 
+and when he strikes it would deal "4 Magic Slay 
+Strike".  Magebladed spells "go off" on legal body 
+hits, AKA a strike which would injure an unarmored 
+player.  Note that Mageblade does not increase the 
+normal 1 minute window between spell casting and 
+when a spell fizzles if it hasn't been used.
 
 Magic Lock
 Type: Enchantment
@@ -897,20 +862,19 @@ Duration: permanent
 Range: Tag Bag
 Dispel: Yes
 
-   A being struck by a Memory Loss dart
-instantly loses all recollection of the events of the 
-previous ten minutes. Memory Loss must be 
-diagnosed to be removed, and becomes fully 
-permanent at the end of the following event. Under 
-these restrictions, it can be removed by Dispel Magic 
-or another Memory Loss casting. The original caster 
-does not need to diagnose it, and may remove it by 
-successfully casting another Memory Loss to undo 
-his casting. If the subject has been effected by several 
-Memory Loss effects, they can all be diagnosed at 
-once but each must be removed individually. Once 
-permanent, it can no longer be Diagnosed or 
-removed.
+   A being struck by a Memory Loss dart instantly 
+loses all recollection of the events of the previous ten 
+minutes. Memory Loss must be diagnosed to be 
+removed, and becomes fully permanent at the end of 
+the following event. Under these restrictions, it can 
+be removed by Dispel Magic or another Memory 
+Loss casting. The original caster does not need to 
+diagnose it, and may remove it by successfully 
+casting another Memory Loss to undo his casting. If 
+the subject has been affected by several Memory 
+Loss effects, they can all be diagnosed at once but 
+each must be removed individually. Once permanent, 
+it can no longer be Diagnosed or removed.
 	Physical damage remains, power points expended 
 are still used, and items used or destroyed are still 
 gone. The target will simply concoct some reason 
@@ -971,32 +935,64 @@ Dispel: Yes
        
    This spell creates four focused darts of elemental 
 power that the caster can use to repel plants, animals, 
-and lesser fae. An creature of that type hit by this 
-spell must move away from the caster at their best 
-possible speed. This effect is not properly described 
-as fear, but instead is a simple desire to avoid the 
-caster. The target must make every effort to leave the 
-line of sight of the caster but will attack other targets 
-that get in their way. Unlike the Fear spell, the 
-creature is not compelled to attack friendly targets 
-that block their route of escape but will not allow 
-them to block their flight. The creatures will attack 
-the caster if they are blocking the only open means of 
-escape.
+and lesser fae. A creature of that type hit by this spell 
+must move away from the caster at their best possible 
+speed. This effect is not properly described as fear, 
+but instead is a simple desire to avoid the caster. The 
+target must make every effort to leave the line of 
+sight of the caster but will attack other targets that get 
+in their way. Unlike the Fear spell, the creature is not 
+compelled to attack friendly targets that block their 
+route of escape but will not allow them to block their 
+flight. The creatures will attack the caster if they are 
+blocking the only open means of escape.
 
-Pacify
-Type: Restoration
-Level: 3
-Duration:  10 minutes
-Range:  Tag-bag
-Dispel:  Yes
+Nature’s Command
+Type: Nature
+Level: 4
+Duration: Instant
+Range: Tag Bag
+Dispel: Yes
 
-   This spell creates a single dart of magical energy 
-that forces the target struck to append the ‘Blunt’ 
-damage descriptor to all melee attacks for its entire 
-duration. This does not apply to ranged attacks or 
-magical spells. Additional descriptors may still be 
-used in conjunction with ‘Blunt’.
+   Nature’s Command creates two darts of elemental 
+power that allow the caster to exert control over 
+lesser elementals, plants, lesser fae, etc. The spell has 
+no effect on greater elementals or high fae. If the dart 
+strikes a target it then falls under the direct control of 
+the caster for ten minutes or until destroyed. Only 
+three commands are legal to use with the controlled 
+target. They are “Attack”, “Defend”, or “Move”. 
+Attack: The attack command allows the caster to 
+point at a target and compels the creature to attack it. 
+The commanded creature will attack any target. It 
+will attack the target without question or concern for 
+its own preservation and will use every available 
+power and ability to carry out the attack. It is possible 
+to word the attack command in a fashion that will 
+compel the creature to attack multiple targets. For 
+example the caster could order the creature to “attack 
+all humans”. 
+Defend: A defend command works like an attack 
+command but the caster orders the creature to defend 
+a specific person, place, or thing. In this case the 
+creature will attack anything that comes near the 
+object or person it was ordered to defend. It will 
+never move more than five feet from the object it was 
+ordered to defend. Like an attack command it is 
+possible to word the defend order in a fashion that 
+will compel the creature to defend multiple targets or 
+large areas (e.g. the caster could order the creature to 
+“defend all living things in the town”).
+Move: A move command simply compels the 
+creature to move in a direction of the caster’s choice 
+for the duration of the spell. It is legal for the caster 
+to order the creature to follow them or walk in front 
+of them. It will move at any speed the caster desires 
+and it is physically able to do. The creature will not 
+perform even the simplest of actions such as the 
+opening of a door or dropping of weapons. The 
+controlled creature will not attack the caster that 
+controls it unless ordered to do so.
 
 Panacea 
 Type: Restorative 
@@ -1017,22 +1013,21 @@ Duration: Ten Minutes
 Range: Tag Bag
 Dispel: Yes
 
-   This spell creates a focused dart of magic
-that can be directed at a target to firmly adhere both 
-feet to the ground. The target is otherwise
-unhindered and may turn and twist in any fashion 
-they like so long as they do not move their feet. The 
-surface the character is standing on has no effect on 
-this spell it will adhere the target’s feet to anything, 
-nor will standing on one foot, jumping in the air, or 
-any other form of acrobatics, protect against this 
-spell. It is assumed that the magic forces the player’s 
-feet to the ground the moment the spell hits them. If
-the player is on their knees the spell will adhere their 
-knees to the ground in place of their feet. There is no 
-way the target can tear their feet from the ground, dig 
-their way out, cut off their feet, or remove their
-shoes.
+   This spell creates a focused dart of magic that can 
+be directed at a target to firmly adhere both feet to the 
+ground. The target is otherwise unhindered and may 
+turn and twist in any fashion they like so long as they 
+do not move their feet. The surface the character is 
+standing on has no effect on this spell it will adhere 
+the target’s feet to anything, nor will standing on one 
+foot, jumping in the air, or any other form of 
+acrobatics, protect against this spell. It is assumed 
+that the magic forces the player’s feet to the ground 
+the moment the spell hits them. If the player is on 
+their knees the spell will adhere their knees to the 
+ground in place of their feet. There is no way the 
+target can tear their feet from the ground, dig their 
+way out, cut off their feet, or remove their shoes.
 
 Poison Immunity
 Level: 5
@@ -1041,14 +1036,14 @@ Duration: Game Day
 Range: Touch
 Dispel: Yes
 
-   This spell crates a powerful magic field
-around the recipient of the spell that absorbs all 
-poisons and acid. The spell lasts the entire game day 
-and automatically negates any  poison, or acid 
-damage that hits the character. The player is required 
-to announce “No effect” in a loud voice when they 
-use this aura to ignore an attack. Characters protected 
-by this spell are required to wear a blue armband as 
+   This spell crates a powerful magic field around 
+the recipient of the spell that absorbs all poisons and 
+acid. The spell lasts the entire game day and 
+automatically negates any poison, or acid damage 
+that hits the character. The player is required to 
+announce “No effect” in a loud voice when they use 
+this aura to ignore an attack. Characters protected by 
+this spell are required to wear a blue armband as 
 described in the chapter on magic and spell use. 
 Poison Immunity does stop creature special abilities 
 if they are defined as a poison or acid such as the 
@@ -1073,15 +1068,12 @@ weapons can deal the Primal damage type.
    This spell is considered an 'immunity' spell for 
 rules purposes.
 
-
-
-
 Purify Spirit 
 Type: Restorative 
 Level: 2 
 Duration: Instant 
 Range: Touch 
-Dispel: n/a 
+Dispel: N/A 
 
    Purify Spirit purges a character’s body of 
 dangerous forces, such as poisons, returning their 
@@ -1128,10 +1120,6 @@ force of the creature is far too weak to be absorbed
 into the caster and is destroyed, therefore preventing 
 the reanimation of the undead creature.  
 
-
-
-
-
 Repel Undead 
 Type: Necromancy 
 Level: 2 
@@ -1154,12 +1142,28 @@ flight. The undead will attack the caster if they are
 blocking the only open means of escape such as the 
 caster standing in the doorway of a tomb.
 
+Resilience
+Type: Restoration
+Level: 3
+Duration: 10 minutes
+Range: Target Touched
+
+	This spell imbues the target with exceptional 
+resilience.  For the duration, all damage is taken as 
+Blunt, the target is immune to Killing Blows, and the 
+target is immune to Reap Spirit.  The in-game effect 
+could be very tough skin, a solid connection to the 
+magic of life, a solid lock on one's Spark, or another 
+reason could be devised.  This spell also protects 
+against other effects that would otherwise count as a 
+killing blow, or a reap spirit.
+
 Restore Limb 
 Type: Restorative 
 Level: 2 
 Duration: Instant 
 Range: Touch 
-Dispel: n/a 
+Dispel: N/A 
 
    This spell fills the recipient’s body with a 
 powerful life force capable of healing all but the most 
@@ -1172,7 +1176,7 @@ The spell does not heal body point or torso wounds.
 A caster may use this spell to heal their own wounds 
 assuming they have one working arm to cast the 
 spell. This spell will not heal a character that is 
-suffering from disease or the affects of poison, unless 
+suffering from disease or the effects of poison, unless 
 they are cured with a Purify Spirit or Panacea spell 
 first.
 
@@ -1208,11 +1212,28 @@ that. For reasons of in game consistency, it is
 assumed that Revive is unable to reverse the effects 
 of normal aging. 
    Revive will not raise a character that has had a 
-Reap Spirit spell cast on them. A peice of the body 
+Reap Spirit spell cast on them. A piece of the body 
 present at the time of death is required for Revive. If 
 any part of a character’s body had Reap Spirit cast on 
 it, then the entire body is ineligible for Revive until 
 their spirit is returned, as per the Reap Spirit spell.
+
+Ruin
+Type: Battle
+Level: 4
+Duration: Instant
+Range: Tag Bag
+
+   This spell calls into existence two darts of non- 
+magical energy. These darts, upon striking a target, 
+will deal 4 acid damage. This spell is NOT stopped 
+by anti-magic defenses as it is not a magical effect. 
+However, this spell CAN be resisted by Spirit Shield 
+and Poison Immunity. The darts must be used within 
+one minute after casting this spell or the darts will 
+automatically disappear and is wasted.  Note that 
+since these darts are non-magical, they cannot be 
+channeled through a mageblade.
 
 Sanctify
 Type: Necromancy
@@ -1249,6 +1270,10 @@ portals in preparation to cast this spell, however it is
 not required that the caster hang the flags personally 
 and may employ as many free hands as needed to get 
 the flags in place.
+   Any undead must immediately exit the affected 
+building. If blocked they may fight to escape. If 
+escape is impossible they will huddle in a corner until 
+the spell ends.
 
 Sanctuary
 Type: Aegis
@@ -1283,7 +1308,7 @@ has ended so there is always a gap in protection
 between castings of this spell. If the Sanctuary is 
 raised in a place where a twenty-foot diameter bubble 
 would not have room to form, such as a tunnel, it is 
-assumed to manifest completely but will not effect 
+assumed to manifest completely but will not affect 
 adjoining areas that might contain other players.
 Once cast, only magic spells can enter or leave the 
 Sanctuary. This allows magic users to cast from 
@@ -1302,41 +1327,13 @@ Duration: Game Day or until expended
 Range: self
 Dispel: Yes
 
-   This spell is the ultimate insurance policy
-for a Restoration mage. With Second Breath active, 
-five minutes after receiving a Torso wound, the 
-Second Breath spell ends, and the caster is affected 
-by Panacea, rather than dying.
-   The spell fails if the caster receives a Killing
-Blow or Dispel Magic. With Second Breath active, 
-the caster will be immune to Reap Spirit for its 
-duration.
-
-
-Severance
-Type: Battle
-Level: 4
-Duration: Instant until game day
-Range: Tag Bag
-Dispel: No
-
-   This spell functions exactly as the spell Mana 
-Burn, except that it creates four darts rather than two.
-This spell creates four focused darts of anti-magic 
-that drain four points of Magic Power per dart from a 
-struck target. If the target has less than four points of 
-Magic Power remaining, it is reduced to zero points 
-of Magic Power. Magic Power can never go into 
-negative numbers. The caster should loudly announce 
-“Mana Burn” when he strikes a target with this spell. 
-Mana burn is a harmful effect which drains 4 power 
-from the target.
-	This spell’s effects are not able to be dispelled; 
-the Magic Power is lost until the next Convergence, 
-at which time the target regains all his Magic Power 
-up to his maximum. This spell never results in a 
-permanent loss of skills paid for by skill points from 
-experience points.
+   This spell is the ultimate insurance policy for a 
+Restoration mage. With Second Breath active, at any 
+time within five minutes of receiving Torso wound, 
+the caster may choose to be affected by a revive.
+   The spell fails if the caster Dispel Magic. With 
+Second Breath active, the caster will be immune to 
+Reap Spirit for its duration.
 
 Shadow Skin
 Type: Enchantment
@@ -1345,7 +1342,7 @@ Duration: Ten Minutes
 Range: Touch
 Dispel: Yes
 
-   This enchantment creates a dark and wispy
+   This enchantment creates a dark and wispy 
 magical barrier around the figure of target touched. 
 Shadow Skin covers the target’s entire body. The 
 barrier makes the target immune to all damage 
@@ -1380,21 +1377,20 @@ Duration: Ten Minutes
 Range: Touch
 Dispel: Yes
 
-   This spell endows a single, non-magical
-weapon with a sheath of magical energy. The spell 
-will function on any size melee weapon or missile 
+   This spell endows a single, non-magical weapon 
+with a sheath of magical energy. The spell will 
+function on any size melee weapon or missile 
 weapon, but the character using the weapon must still 
 possess the necessary skills to wield a weapon of that 
-size. The spell will not work on shields or 
-nonweapon objects. 
-
-Weapons affected by Silvershine hit for Silver 
-damage. This spell does not increase the
-damage of the attack. It is legal for a character to 
-fight with two enchanted weapons, one in each hand. 
-Enchanted weapons cannot bear blade poisons or 
-other enchantments while enchanted. A blue flag 
-must be visible, attached the lower part of the blade
+size. The spell will not work on shields or non-
+weapon objects. 
+   Weapons affected by Silvershine hit for Silver 
+damage. This spell does not increase the damage of 
+the attack. It is legal for a character to fight with two 
+enchanted weapons, one in each hand. Enchanted 
+weapons cannot bear blade poisons or other 
+enchantments while enchanted. A blue flag must be 
+visible, attached the lower part of the blade
 or cross guards (lower shaft of pole arms and maces), 
 attached to the staff of the bow, or stock of the 
 crossbow of the enchanted weapon, and without the 
@@ -1405,27 +1401,45 @@ Type: Battle
 Level: 3
 Duration: Instant
 Range: Tag Bag
-Dispel: n/a
+Dispel: N/A
 
-   This spell creates  two concentrated darts
+   This spell creates two concentrated darts
 of magical force to be thrown at a target to inflict 
 damage. The target hit by a Slaying Dart receives 
-four points of magical damage to the area hit. Hits to 
-an opponent’s shield or weapon count as hits to the 
-arm holding the weapon or shield. The player is not 
-allowed to set the dart down (this includes dropping
-the dart) and doing so will dispel the dart. The darts 
-must be thrown to activate so the caster may not 
-simply touch a target with a dart to inflict damage. 
-One minute after casting this spell the dart 
-automatically dispels and are wasted.
-Darts created by the Slaying Swarm spell
-ignore the Monstrous ability. Because of this, targets 
-under the effects of Abomination, wearing plate 
-armor, or monsters that naturally possess the 
-Monstrous ability take the full four points of damage 
-from a Piercing Dart. The damage call for this spell is 
-“Four Magic Slay!”
+four points of magical damage to the area hit. Any 
+hits to an opponent’s shield or weapon count as hits 
+to the arm holding the weapon or shield. The player 
+is not allowed to set the dart down (this includes 
+dropping the dart) and doing so will dispel the dart. 
+The darts must be thrown to activate so the caster 
+may not simply touch a target with a dart to inflict 
+damage. One minute after casting this spell the dart 
+automatically dispels and is wasted.
+Darts created by the Slaying Swarm spell ignore the 
+Monstrous ability. Because of this, targets under the 
+effects of Abomination, wearing plate armor, or 
+monsters that naturally possess the Monstrous ability 
+take the full four points of damage from a Piercing 
+Dart. The damage call for this spell is “Four Magic 
+Slay!”
+
+Spellburst
+Type: Enchantment
+Level: 3
+Duration: 10 Minutes
+Range: Target Touched
+
+	This spell enchants the target the ability to shoot 
+magical sprays, instead of magical darts.  For the 
+duration of Spellburst, the target can throw a handful 
+instead of a single tag bag, for tag bag spells.  A spell 
+may only affect a target once per throw.  For 
+example:  If I am enchanted with Spellburst and I 
+cast Magic Swarm, I can throw two handfuls of 
+tagbags.  If I hit Bob the Orc with 3 tag bags, Tim the 
+Human with 2, and Jimmy the Vertucci with 1, all 
+three targets are only affected with 4 points of 
+magical damage.
 
 Spellstore
 Type: Battle
@@ -1466,8 +1480,6 @@ not choose to save the shield for use at a later time.
 This spell requires the player to wear a blue flag on 
 their person.
 
-
-
 Strength 
 Type: Battle
 Level: 1
@@ -1488,16 +1500,16 @@ Duration: Ten Minutes
 Range: Tag Bag
 Dispel: Yes
 
-   This spell creates a dart of focused magical
+   This spell creates a dart of focused magical 
 energy that the caster can throw at a target, stunning 
 it. A target hit by this dart falls to the ground 
 paralyzed. If the dart strikes the target’s weapon or 
 shield the spell still takes full effect. While stunned, 
 the target may take no actions (move, speak, cast 
-spells, draw weapons, etc.) and must simply fall to
+spells, draw weapons, etc.) and must simply fall to 
 the ground and act stunned. The player is not allowed 
 to call out or make any other noise while stunned. If 
-at any time the stunned player is attacked, the stun
+at any time the stunned player is attacked, the stun 
 immediately wears off and they are free to act. The 
 player is not allowed to pass stunning darts off to 
 other players (unless the magic hands spell is used) or 
@@ -1515,11 +1527,11 @@ Duration:  (Special)
 Range:  Touch
 Dispel:  Yes
 
-   All Aegis magic on the caster at the time of 
-casting is ‘copied’ to the recipient of the spell. Spell 
-durations for each of the spells copied are treated as 
-though they were cast at the same time as 
-Synchronize. Aegis ritual-magic and spell effects 
+   All Aegis magic, levels one to three, on the caster 
+at the time of casting is ‘copied’ to the recipient of 
+the spell. Spell durations for each of the spells copied 
+are treated as though they were cast at the same time 
+as Synchronize. Aegis ritual-magic and spell effects 
 such as Sanctuary (which does not directly target the 
 caster) are not affected by Synchronize.
 
@@ -1544,7 +1556,7 @@ Type: Restoration
 Level: 4
 Duration: 1 Min
 Range: Touch
-Dispel: n/a
+Dispel: N/A
 
    For the duration of this spell, the caster may cast 
 any number of 1st and 2nd level Restoration spells for 
@@ -1563,18 +1575,18 @@ Duration: Game Day
 Range: Touch
 Dispel: Yes
 
-   Unhallow seals a building with foul magical
+   Unhallow seals a building with foul magical 
 energy that prevents the living from entering. A 
 building is defined as any permanent structure with 
 four walls, a roof, floor, and some sort of portal such 
 as a door or window. Unhallow will not protect 
 temporary buildings such as a tent or open air 
-extensions to buildings such as a porch. When cast on
+extensions to buildings such as a porch. When cast on 
 a building, all of the building’s doors and windows 
 glow with magical energy and no living creatures, 
 regardless of their level, may enter. Anti-Magic Aura 
 and Aura of Reflection will not allow a creature to 
-pass through the barrier but a Dispel Magic spell will
+pass through the barrier but a Dispel Magic spell will 
 dispel the Unhallow spell. This spell does not prevent 
 creatures from casting spells or firing missile 
 weapons into the protecting building. The caster must 
@@ -1582,18 +1594,24 @@ be inside the building when the spell is cast but may
 come and go as they please once the spell is in place.
 The spell will force out any living creatures that are 
 in the building once the spell is cast.
-With in one minute of casting this spell
-every ingress and egress point of the building must 
-have a blue flag visibly attached to it. If the caster 
-fails to do this, the spell fails and creatures may 
-freely move in and out of the building. It is not legal 
-to hang blue flags on portals in preparation to cast 
-this spell, however it is not required that the caster
-hang the flags personally and may employ as many  
-free hands as needed to get the flags in place.
-Living creatures under the effects of a
-Ghastly Visage or Abomination spell may enter an 
+   Within one minute of casting this spell every 
+ingress and egress point of the building must have a 
+blue flag visibly attached to it. If the caster fails to do 
+this, the spell fails and creatures may freely move in 
+and out of the building. It is not legal to hang blue 
+flags on portals in preparation to cast this spell, 
+however it is not required that the caster hang the 
+flags personally and may employ as many  free hands 
+as needed to get the flags in place.
+   Living creatures under the effects of a Ghastly 
+Visage or Abomination spell may enter an 
 Unhallowed area.
+   Any living beings inside a building affected by 
+Unhallow must immediately exit. They may fight and 
+cast spells to escape if blocked. If escape is 
+impossible they must cower in a corner for the 
+duration of the spell. Dissipated beings count as 
+having exited the building.
 
 Weaken
 Type: Compulsion
@@ -1620,7 +1638,7 @@ weapon enchantments (magic weapons, weapon with
 Enchant Weapon cast on them, etc.). If the dart 
 strikes a weapon or shield the spell still takes full 
 effect. The player is not allowed to pass Weaken 
-darts off to other players  or set a dart down (this 
+darts off to other players or set a dart down (this 
 includes dropping them) and doing so will cause the 
 spell to disrupt. The Weaken dart must be thrown to 
 activate so the caster may not simply touch a target 
