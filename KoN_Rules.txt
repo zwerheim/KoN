@@ -135,9 +135,9 @@ safety strap
 without the player's knowledge.
 
  1.5.1 	When a player hears a Time Stop called, they should IMMEDIATELY stop 
-what they are doing, take a knee, close their eyes, and begin making meaningless 
-noise. The object of all this is to prevent you from seeing something you shouldn’t 
-yet see that would upset the plot or ruin the surprise for you.
+what they are doing, remain stationary, close their eyes, and begin making 
+meaningless noise. The object of all this is to prevent you from seeing something 
+you shouldn’t yet see that would upset the plot or ruin the surprise for you.
 
  1.5.2 	Players in a Time Stop should not speak to each other, look around, or 
 move. 
@@ -190,12 +190,13 @@ your character dies or you permanently leave the game. (Looking at it another
 way, character theft is more a matter of game props changing hands between 
 characters than stealing from another person.)
 
- 1.7.5 	Non-numbered weapons, armor, garb and equipment may not be stolen. 
-(An easy example of this is a character that has a wooden chest that he keeps 
-some of his belongings in. While the things inside that chest may be in game 
-items, and hence fair game for stealing, the box itself usually is not. If you wish to 
-steal the items inside that box, you may do so, but you cannot simply pick up the 
-box and walk off with it. You also may not damage the box to get inside it.)
+ 1.7.5 	Non-numbered weapons, armor, garb and equipment may not be stolen and 
+must be kept within 10-20 feet of the owner if possible. (An easy example of this 
+is a character that has a wooden chest that he keeps some of his belongings in. 
+While the things inside that chest may be in game items, and hence fair game for 
+stealing, the box itself usually is not. If you wish to steal the items inside that box, 
+you may do so, but you cannot simply pick up the box and walk off with it. You 
+also may not damage the box to get inside it.)
 
  1.7.6 	Real world personal items should NEVER be touched. Things like 
 medicines, wallets/money, car keys, or cell phones are all off limits. Players who 
@@ -1071,21 +1072,12 @@ Lore
 Advanced Lore
 3
 Lore
-Master Merchant
-1
-Merchant
-Merchant
-1
---
 Racial Languages
 1
 --
 Read Magic
 2
 --
-Tradesman
-1
-Estimate Value
 
 
 
@@ -1232,6 +1224,21 @@ Ordained 3, GM permission
 Ordained 5
 4
 Ordained 4, GM permission
+Merchant 1
+4
+GM permission
+Merchant 2
+4
+Merchant 1, GM permission
+Merchant 3
+4
+Merchant 2, GM permission
+Merchant 4
+4
+Merchant 3, GM permission
+Merchant 5
+4
+Merchant 4, GM permission
 
 Magic 
 Skills
@@ -1305,7 +1312,8 @@ Synchronize
 4
 Level 3 Aegis 
 Spell
-Aegis effects active on Caster are duplicated to target touched
+Aegis effects active on Caster, levels 1-3, are duplicated to target 
+touched
 Poison Immunity
 5
 5
@@ -1345,24 +1353,18 @@ Magic Swarm
 Level 1 Battle 
 Spell
 Two magic darts dealing 4 points of damage each
-Mana Burn
+Mageblade
 2
 2
 Level 1 Battle 
 Spell
-Two magic darts that drains 4 Magic Power points
-  Slaying Swarm
+Touched weapon functions as a Mageblade
+Slaying Swarm
 3
 3
 Level 2 Battle 
 Spell 
-  Two magic 
-darts dealing 
-4 Magic Slay 
-damage each
-
-
-
+Two magic darts dealing 4 Magic Slay damage each
 Spellstore
 3
 3
@@ -1380,12 +1382,7 @@ Four magic darts dealing 4 points of damage each
 4
 Level 3 Battle 
 Spell
-  Two darts 
-dealing 4 acid 
-damage each
-
-
-
+  Two darts dealing 4 acid damage each
 Devastation
 5
 5
@@ -1508,7 +1505,8 @@ Silvershine
 Level 1 
 Enchantment
 Melee weapon touched deals silver damage for ten minutes
-Enchant Weapon
+Enchant 
+Weapon
 3
 3
 Level 2 
@@ -1619,7 +1617,8 @@ Second Breath
 Level 4 
 Restoration 
 Spell
-Caster receives Panacea before dying
+Caster receives Revive before dying. Caster is immune to reap 
+spirit
 Revive
 5
 5
@@ -1756,7 +1755,7 @@ Fear
 4
 Level 3 
 Compulsion
-Magic dart makes target flee from you
+Two magic darts makes target flee from you
 Stun
 4
 4
@@ -1791,8 +1790,8 @@ longer than 42”).
  3.15.5 	Each tier beyond the first of the Melee tree allows characters to hit for 
 increasing amounts of damage with melee weapons, to a maximum of 4 damage.
 
- 3.15.6 	Each tier of the Missle tree allows a character to hit for increasing amounts 
-of damage with Missle weapons, to a maximum of 4 damage.
+ 3.15.6 	Each tier of the Missile tree allows a character to hit for increasing 
+amounts of damage with Missile weapons, to a maximum of 4 damage.
 
  3.15.7 	Shield Fighting allows characters to use a Shield, which is larger than a 
 buckler.
@@ -1839,60 +1838,54 @@ blunt damage.
 the prerequisite for Alchemy.
 
  3.15.19 	Lore allows a character to ask one in-game related question to Game 
-Masters between game by e-mailing the question to 
-lorerequest@kingdomsofnovitas.com
+Masters between game by e-mailing the question to lore@mvgc.net
 
  3.15.20 	Advanced Lore allows the character to ask two questions between games 
 instead of just one.
 
- 3.15.21 	Merchant allows a character to turn in 20 coin per event for XP.
-
- 3.15.22 	Master Merchant allows a character to turn in 30 coin per event for XP.
-
- 3.15.23 	Racial Languages allow a character to read, speak, and write in that 
+ 3.15.21 	Racial Languages allow a character to read, speak, and write in that 
 language.
 
- 3.15.24 	Valid Racial Languages are: Elvish, Terran, Snow Goblin, Draconic, 
+ 3.15.22 	Valid Racial Languages are: Elvish, Terran, Snow Goblin, Draconic, 
 Sylvan, and Andaranien.
 
- 3.15.25 	Game Master Approval is required for Characters to learn any of the 
+ 3.15.23 	Game Master Approval is required for Characters to learn any of the 
 following languages:  Canine, Apian, Diabolic, Black Speech, Thieves' Cant, or 
 Immortal.
 
- 3.15.26 	Read Magic allows a character to read magical text and use Scrolls.
+ 3.15.24 	Read Magic allows a character to read magical text and use Scrolls.
 
- 3.15.27 	Tradesman grants a character a small stipend if they meet the roleplaying 
-requirements and have a trade.
+ 3.15.25 	Alchemy permits the creation of certain Alchemical goods per rank.
 
- 3.15.28 	Alchemy permits the creation of certain Alchemical goods per rank.
-
- 3.15.29 	Brew Potion permits the creation of Potions of up to certain 3rd level 
+ 3.15.26 	Brew Potion permits the creation of Potions of up to certain 3rd level 
 spells.
 
- 3.15.30 	Scribe Scroll permits the creation of Scrolls.
+ 3.15.27 	Scribe Scroll permits the creation of Scrolls.
 
- 3.15.31 	Production points are required for Alchemy, Brew Potion, and Scribe 
+ 3.15.28 	Production points are required for Alchemy, Brew Potion, and Scribe 
 Scroll.
 
- 3.15.32 	Ornamenter permits the creation of magical gear which characters can 
+ 3.15.29 	Ornamenter permits the creation of magical gear which characters can 
 wear on their body.
 
- 3.15.33 	Tinker permits the creation of magical housewares, traps, and nonmagical 
+ 3.15.30 	Tinker permits the creation of magical housewares, traps, and nonmagical 
 locks.
 
- 3.15.34 	Weaponsmith permits the creation of magical weapons.
+ 3.15.31 	Weaponsmith permits the creation of magical weapons.
 
- 3.15.35 	Craft Points are required for Ornamenting, Tinkering, and 
+ 3.15.32 	Craft Points are required for Ornamenting, Tinkering, and 
 Weaponsmithing.
 
- 3.15.36 	Druid is a roleplaying skill related to Nature.
+ 3.15.33 	Druid is a roleplaying skill related to Nature.
 
- 3.15.37 	Medium is a roleplaying skill related to Spirits.
+ 3.15.34 	Medium is a roleplaying skill related to Spirits.
 
- 3.15.38 	Status is a roleplaying skill related to rank in an external organization.
+ 3.15.35 	Status is a roleplaying skill related to rank in an external organization.
 
- 3.15.39 	Ordained is a roleplaying skill related to the gods.
+ 3.15.36 	Ordained is a roleplaying skill related to the gods.
 
+ 3.15.37 	Merchant is a roleplaying skill relating to income and mercantile 
+endeavors.
 
  3.16 	Characters can gain a special title by buying every skill in certain areas of 
 specialty.
@@ -1914,10 +1907,9 @@ attack.
 
  3.16.2 	Savant
 
- 3.16.2.1 	To earn this title, a player must learn: Estimate Value, Tradesman, 
-First Aid, Herbalist, Identify Magic, Lore, Merchant, Master Merchant, (at 
-least one) Racial Language, Read Magic, Brew Potion, Alchemy up to Rank 5, 
-and gain 20 Production Points.
+ 3.16.2.1 	To earn this title, a player must learn: Estimate Value, First Aid, 
+Herbalist, Identify Magic, Lore, (at least one) Racial Language, Read Magic, 
+Brew Potion, Alchemy up to Rank 5, and gain 20 Production Points.
 
  3.16.2.2 	Savants may create any scroll or potion if they have a sample to 
 copy from, even if they do not know the spell. (This still requires the 
@@ -2011,74 +2003,81 @@ than a single person can possibly cast without aid from external sources.
 
  4.9 	Casting Spells
 
- 4.9.1 	There are two (effective) available ranges for spells: “Touch” and “Dart”. 
-The target must be in range of the spell being cast to be affected by it.
+ 4.9.1 	There are three (effective) available ranges for spells: “Self”, “Touch” and 
+“Dart”. The target must be in range of the spell being cast to be affected by it.
 
- 4.9.2 	Touch range spells require that the caster touch the target with their hand 
+ 4.9.2 	Self range spells are spells that only affect the caster.
+
+ 4.9.2.1 	Self spells can only be cast through consumables if the caster 
+personally knows the spell.
+
+ 4.9.2.2 	Self Spells cannot be spellstored.
+
+ 4.9.3 	Touch range spells require that the caster touch the target with their hand 
 in order for the spell to take effect. This hand must be not be holding any other 
 items.
 
- 4.9.3 	It is not possible to cast a touch range spell through a foot or other 
+ 4.9.3.1 	It is not possible to cast a touch range spell through a foot or other 
 appendage.
 
- 4.9.4 	The caster must touch some part of the target’s body (clothing and armor 
-do not hinder spell casting) and may not cast a touch range spell by grasping a 
-piece of the target’s equipment.
+ 4.9.3.2 	The caster must touch some part of the target’s body (clothing and 
+armor do not hinder spell casting) and may not cast a touch range spell by 
+grasping a piece of the target’s equipment.
 
- 4.9.5 	A wounded limb cannot be used to cast magic. A player with two arm 
-wounds is unable to use spells of any sort, even to heal their own wounds.
+ 4.9.3.3 	A wounded limb cannot be used to cast magic. A player with two 
+arm wounds is unable to use spells of any sort, even to heal their own wounds.
 
- 4.9.6 	Binding a spell caster’s hands will not hinder their ability to cast touch 
-range spells as long as they are able to touch the target.
+ 4.9.3.4 	Binding a spell caster’s hands will not hinder their ability to cast 
+touch range spells as long as they are able to touch the target.
 
- 4.9.7 	“Dart” range spells require the caster to throw a tag bag (also called a 
+ 4.9.4 	“Dart” range spells require the caster to throw a tag bag (also called a 
 spacket) at the target.  The tag bag must strike the target for the target to be 
 affected by the spell.  If the tag bag misses, the spell is wasted, and the power is 
 expended.
 
- 4.9.8 	Tag bags are small cloth beanbags used to represent concentrated darts of 
+ 4.9.5 	Tag bags are small cloth beanbags used to represent concentrated darts of 
 magical force. The range of a tag bag spell depends on how far the player can 
 accurately throw the tag bag.
 
- 4.9.9 	Players are required to provide their own beanbags to use when casting 
+ 4.9.6 	Players are required to provide their own beanbags to use when casting 
 magic.
 
- 4.9.10 	Beanbags are constructed of cloth and birdseed so that beanbags lost 
+ 4.9.7 	Beanbags are constructed of cloth and birdseed so that beanbags lost 
 during play will break down and prevent unneeded liter in the playing area.
 
- 4.9.11 	The size of the completed beanbag should not exceed a tennis ball and 
+ 4.9.8 	The size of the completed beanbag should not exceed a tennis ball and 
 should be no smaller than a golf ball.
 
- 4.9.12 	Beanbags must be pliable and soft to prevent injuring other players when 
+ 4.9.9 	Beanbags must be pliable and soft to prevent injuring other players when 
 they are thrown. The material used to build the beanbag should be soft, smooth, 
 and a have a tight enough weave that the birdseed does not spill out.
 
- 4.9.13 	Players are not permitted to use stiff or non-biodegradable materials like 
+ 4.9.10 	Players are not permitted to use stiff or non-biodegradable materials like 
 leather, rubber, plastic, tape, or foil.
 
 
- 4.9.14 	The material used to make the beanbag can be of any color, but light and 
+ 4.9.11 	The material used to make the beanbag can be of any color, but light and 
 bright colors are preferred, making them easier to find after being thrown.
 
- 4.9.15 	The ends of the beanbag should be sewn, tied shut with string, or closed 
+ 4.9.12 	The ends of the beanbag should be sewn, tied shut with string, or closed 
 with cloth tape. Never close the beanbag with staples, pins, plastic ties or plastic 
 tape.
 
- 4.9.16 	Players are expected to keep their beanbags in good condition and old, 
+ 4.9.13 	Players are expected to keep their beanbags in good condition and old, 
 damaged, or soiled beanbags must be removed from play.
 
- 4.9.17 	Spells deliverable by tag bag will only take effect if the tag bag strikes the 
+ 4.9.14 	Spells deliverable by tag bag will only take effect if the tag bag strikes the 
 target or any of the equipment they are wearing or holding, including equipment 
 such as armor, shields, pouches, and weapons. For this reason, a tag bag cannot be 
 avoided by blocking with a weapon or shield. (Thus requiring the player to dodge 
 the tag bag in order to avoid the spell.)
 
- 4.9.18 	If the tag bag strikes another player, the ground, or other object before 
+ 4.9.15 	If the tag bag strikes another player, the ground, or other object before 
 reaching the intended target, the spell goes off and affects the accidentally hit 
 target.  Because of this, it is possible for the spell caster to inflict friendly fire 
 damage to companions if they are less than accurate with their magic.
 
- 4.9.19 	When a damaging magic spell strikes an object held or worn by a 
+ 4.9.16 	When a damaging magic spell strikes an object held or worn by a 
 character, the damage is transferred to the area of the body where the object is 
 held or located. (For example, if a character’s shield is hit by a dart from a Magic 
 Swarm spell the damage is applied to their shield arm. The exception to this rule 
@@ -2086,28 +2085,28 @@ is Magic Strike, which requires a valid hit to take effect). All other tag bag m
 such as Stun or Repel Undead, has an equal effect regardless of where the target is 
 hit.
 
- 4.9.20 	Players may throw (drop, toss, etc.) tag bags in any fashion they like as 
+ 4.9.17 	Players may throw (drop, toss, etc.) tag bags in any fashion they like as 
 long as they follow the general combat safety rules. 
 
- 4.9.21 	Some spells, such as Repel Undead, create multiple darts of magic with 
+ 4.9.18 	Some spells, such as Repel Undead, create multiple darts of magic with 
 one casting. The player must throw each tag bag separately and may not toss 
 multiple darts in a single throw.
 
- 4.9.22 	Casters are not allowed to carry tag bags openly in their hands unless they 
+ 4.9.19 	Casters are not allowed to carry tag bags openly in their hands unless they 
 have cast a spell that requires tag bags in the last minute. It is required that tags 
 bags be carried in a pouch or pocket until the tag bag spell is cast. Doing 
 otherwise might mislead other players into thinking the mage is “armed” and 
 ready to throw a spell, as a player with a tag bag in hand is assumed to be holding 
 a glowing ball of eldritch energy!
 
- 4.9.23 	These darts are magically created when the incant of a spell is completed, 
+ 4.9.20 	These darts are magically created when the incant of a spell is completed, 
 and have a duration of one minute from the completion of the incant. Darts that 
 are not thrown after one minute elapses dissipate harmlessly into the air, and are 
 wasted.
- 4.9.24 	Players are always required to actually toss or throw the tag bag at their 
+ 4.9.21 	Players are always required to actually toss or throw the tag bag at their 
 target; it is never acceptable to simply hold it in your hand and touch your target.
 
- 4.9.25 	It is not required to see the target in order to cast a spell and it is 
+ 4.9.22 	It is not required to see the target in order to cast a spell and it is 
 completely legal to cast magic in the dark in the hopes the spell will find a mark. 
 (Touch range spells are obviously less problematic than dart range spells when 
 casting blind.)
@@ -2184,11 +2183,11 @@ advantage.
  4.11.4 	Confusion in the heat of battle is not an excuse for a target to ignore the 
 effects of a spell.
 
- 4.11.5 	If the target has the ability to defend himself against the spell, such as with 
-an Anti-Magic Aura, they must call out “NO EFFECT!” so the mage is aware 
-their spell failed. If a “no effect” call is not made, the mage should assume their 
-spell took effect. (Cheating by not accepting the spell effects should result in the 
-caster contacting a Game Master.)
+ 4.11.5 	If the target has the ability to defend their self against the spell, such as 
+with an Anti-Magic Aura, they must call out “NO EFFECT!” so the mage is 
+aware their spell failed. If a “no effect” call is not made, the mage should assume 
+their spell took effect. (Cheating by not accepting the spell effects should result in 
+the caster contacting a Game Master.)
 
  4.11.6 	Some spells require the use of blue flags to indicate the presence of a 
 magical field or effect.
@@ -2544,20 +2543,24 @@ use of this spell in this way does not use the player’s Magic power to cast.)
 improvement from the default of 1 for everyone else.)
 
  5.3.3 	Level 3
+ 5.3.3.1 	Gain an immunity to Reap Sprit.
 
- 5.3.3.1 	Grants the character an Ethereal Aura.
+ 5.3.3.2 	Grants the Spirit Subjugation ability, once per game day.
 
- 5.3.3.1.1 	Ethereal Aura functions as the Disengage spell towards all spirits 
-(and only spirits).
+ 5.3.3.2.1 	In all other aspects, not covered by rule, this ability acts as the 
+Dominate spell.
 
- 5.3.3.1.2 	This effect is permanent and cannot be dispelled.
+ 5.3.3.2.2 	Spirit Subjugation only affects spirits.
 
- 5.3.3.1.3 	Ethereal Aura does not require an incant. (It is always active.)
 
- 5.3.3.2 	Allows the Medium to act as a conduit between a Reaper and his 
+ 5.3.3.2.3 	In addition to the legal Dominate commands, Spirit Subjugation 
+grants the character the ability to force the spirit to move on to the well 
+forever.
+
+ 5.3.3.3 	Allows the Medium to act as a conduit between a Reaper and his 
 victim for the purposes of the Revive spell.
 
- 5.3.3.2.1 	A Medium of this level may lay his hand on the Reaper and the 
+ 5.3.3.3.1 	A Medium of this level may lay his hand on the Reaper and the 
 Corpse while a Revive is cast upon the corpse. (This is the only way, other 
 than killing the reaper, to save someone's spark.)
 
@@ -2579,17 +2582,12 @@ Medium's questions.
 
  5.3.5 	Level 5
 
- 5.3.5.1 	Grants the Spirit Subjugation ability, once per game day.
+ 5.3.5.1 	Grants the Fortune Spinner ability, once per event.
 
- 5.3.5.1.1 	In all other aspects, not covered by rule, this ability acts as the 
-Dominate spell.
+ 5.3.5.1.1 	The medium can determine the target’s fortune
 
- 5.3.5.1.2 	Spirit Subjugation only affects spirits.
-
-
- 5.3.5.1.3 	In addition to the legal Dominate commands, Spirit Subjugation 
-grants the character the ability to force the spirit to move on to the well 
-forever.
+ 5.3.5.1.2 	The medium will deliver this fortune to the plot marshal who will 
+see that it comes ‘true’ in some manner.
 
  5.4 	Status
 
@@ -2721,6 +2719,29 @@ selected.
 
  5.5.5.1.3 	This effect lasts a maximum of 10 minutes and does not require an 
 incant to activate.
+
+ 5.6 	Merchant
+ 5.6.1 	Level 1
+ 5.6.1.1 	Player may turn in Consumables at sign in for coin at one coin per 
+level. (Scroll of Magic Armor = 1 coin)
+ 5.6.2 	Level 2
+ 5.6.2.1 	Merchant receives a small stipend of 20 coin at sign in.
+ 5.6.2.2 	No limit for converting coin into XP (10 coin = 1 XP)
+ 5.6.3 	Level 3
+ 5.6.3.1 	May turn in magic items at logistics for new items at a 2 for 1 coin 
+value. For instances you can turn a 20-craft point weapon into: a ring of 
+Mageblade, and a Carpet of Dissipate.
+ 5.6.3.2 	Turn-ins must be setup before game, like pre-production
+ 5.6.3.3 	There is no cap to the ability
+ 5.6.4 	Level 4
+ 5.6.4.1 	Merchant receive a larger Stipend of 40 coin. May turn in magic 
+items for coin at half their value. A 20-craft point weapon may be turned in for 
+100 coin.
+ 5.6.4.2 	This replaces the level 2 ability.
+ 5.6.5 	Level 5
+ 5.6.5.1 	Once a year, the merchant can acquire a 36 craft point epic item.
+ 5.6.5.2 	The merchant must pay its total cost in coin.
+
 
 
  6 	Production Skills
@@ -3082,8 +3103,6 @@ Arrows, Bolts, Thrown Weapons
 0
 Magic
 2
-Spell Striking
-2
 Mage Blade
 4
 Martial
@@ -3095,20 +3114,22 @@ Master Work
 Imbue with a 1st lvl Spell
 4
 Goblin Iron
-5
+8
 Silver
 8
 Imbue with a 2nd lvl Spell
 8
 Nature Damage
-10
+8
 Imbue with a 3rd lvl Spell
 12
 Great Weapon
-15
-Elven Steel
 16
+Elven Steel
+20
 Master’s Staff of Wizardry 
+24
+Master’s Blade
 24
 
 
@@ -3122,63 +3143,78 @@ enhancement, the other three projectiles created are simply Magic.
 Silver, Elven Steel) are created in packs of four of the special material.
 
 
- 6.24 	Spellstriking weapons are those that can deliver a spell effect which is imbued in 
-the weapon through a weapon strike. (Cannot channel spells not within the weapon).
- 6.24.1 	When casting a spell imbued into a weapon with the Spellstriking ability, 
-the weapon must be wielded, but no other free hand is required.
+ 6.24 	Mageblades are weapons that allow the wielder to channel their own spells 
+through it 
+ 6.24.1 	When casting a spell using a weapon with the Mageblade ability, the 
+weapon must be wielded, but no other free hand is required.
 
- 6.24.2 	The imbued spell can be channeled into the blade, charging it with an aura 
-that delivers the spell's effect (instead of damage) on the next successful weapon 
-hit.
+ 6.24.2 	The spell can be channeled into the blade, charging it with an aura that 
+delivers the spell's effect (instead of damage) on the next successful weapon hit.
 
- 6.24.3 	Spellstriking bows and crossbows deliver their spells by arrow or bolt, not 
+ 6.24.3 	Mageblade bows and crossbows deliver their spells by arrow or bolt, not 
 by hitting with the weapon itself.
 
- 6.24.4 	Only legal weapon hits will discharge the spell from a Spellstriking 
-weapon.
+ 6.24.4 	Only legal weapon hits will discharge the spell from a Mageblade weapon.
 
- 6.24.5 	Immunity to the weapon's damage type will not prevent a Spellstriking 
-spell from discharging.
+ 6.24.5 	Immunity to the weapon's damage type will not prevent a Mageblade spell 
+from discharging.
 
  6.24.6 	Any standard defense against spell effects or magic darts works as normal 
-against Spellstriking spells.
+against Mageblade spells.
 
  6.24.7 	One must add the "Strike" descriptor when calling damage from a 
-spellstriking weapon channeling a spell which deals damage.  (For example, you 
-cast Slaying Swarm from a spellstriking weapon; you would call "4 Magic Slay 
+Mageblade weapon channeling a spell which deals damage.  (For example, you 
+cast Slaying Swarm into a Mageblade weapon; you would call "4 Magic Slay 
 Strike" for your next two legal hits. Note that the original spell create two darts 
 and therefore allows the caster to hit twice with the spell’s ability.)
 
  6.24.8 	If no legal hit is landed within 1 minute of the spell being cast from a 
-Spellstriking weapon, the charge dissipates and is wasted.
+Mageblade weapon, the charge dissipates and is wasted.
 
  6.24.9 	Only spells that normally generate one or more tagbags are valid to be cast 
-with Spellstriking.
+with Mageblade.
 
- 6.24.10 	Any spell that does not generate tagbags must be cast normally without use 
-of the Spellstriking ability.
+ 6.24.10 	Any spell that generates more than one tagbag generates the same number 
+of charges on the Mageblade weapon.
 
- 6.24.11 	Any spell that generates more than one tagbag generates the same number 
-of charges on the Spellstriking weapon.
-
- 6.24.12 	With a Spellstriking weapon, only one charge is delivered with each legal 
+ 6.24.11 	With a Mageblade weapon, only one charge is delivered with each legal 
 hit, with each successive hit delivering another charge until they are all expended.
 
+ 6.25 	
 
- 6.25 	Mageblades are weapons that allow the wielder to channel their own spells 
-through it like a Spellstriking weapon.
-
- 6.25.1 	Spells cast through a Mageblade must be one that the user knows, and 
-casts with their own power points.
-
- 6.26 	Players must add the "Strike" descriptor when calling damage from a Mageblade 
-weapon channeling a spell which deals damage. (For example, you cast Eldritch 
-Stone from a spellstriking weapon; you would call "4 Elven Steel Strike" for your next 
-two legal hits. Note that the original spell create two darts and therefore allows the 
-caster to hit twice with the spell’s ability.)
-
- 6.27 	A weapon imbued with any 1st, 2nd, or 3rd  level spell is considered Magic for no 
+ 6.26 	A weapon imbued with any 1st, 2nd, or 3rd  level spell is considered Magic for no 
 additional cost.
+
+ 6.27 	Master’s Blades are weapons of extreme quality only usable by Weapon Masters.
+
+ 6.27.1 	A Master’s Blade will only function for a weapon master
+
+ 6.27.2 	Master’s Blades are always counted as ‘Masterwork’.
+
+ 6.27.3 	Master’s Blades provide an extra ‘Master Stroke’ slay or pierce call every 
+game day to a single weapon master, bringing the total to three.
+
+ 6.27.3.1 	A Weapon Master cannot use this benefit from multiple Master’s 
+Blades
+
+ 6.27.4 	Masters Blade’s count as a weapon and a slotted item of its own type.
+
+ 6.27.5 	The prop for a Master’s Blade must be of an above average cosmetic 
+quality and must be approved by P&A
+
+ 6.27.6 	The prop for a Master’s Blade does not necessarily have to be a blade.
+
+ 6.27.7 	To craft a Master’s Blade, the crafter must be a master craftsman of both 
+Weaponsmithing and Tinkering.
+
+ 6.27.8 	A Master’s Blade costs 24 craft points, but 15 of those craft points may be 
+spent on changing the size of the weapon or adding enhancements.
+
+ 6.27.9 	A Master’s Blade takes it’s coin production cost from Weaponsmithing, 
+and so costs 200 coin to create.
+
+ 6.27.10 	Ammunition and Thrown weapons are disallowed from becoming a 
+Master’s Blade
 
  6.28 	Staves of Wizardry are attuned to a single school of magic.
 
@@ -3199,7 +3235,10 @@ when not carried in your hand(s).
  6.28.6 	To make a Staff of Wizardry, the crafter must be a Master Craftsman of 
 both Weaponsmithing and Ornamenting.
 
- 6.29 	The player is responsible for providing their own props for Weaponsmtih crafted 
+ 6.28.7 	Staves of Wizardry must be at least 46” long and are therefore Great 
+Weapons
+
+ 6.29 	The player is responsible for providing their own props for Weaponsmith crafted 
 items.
 
  6.29.1 	Weapon props made created by a Weaponsmith must be items of quality.
@@ -3669,6 +3708,18 @@ using any combination of in-game coin or real-world dollars.
 from play, the prop is returned to the original owner, and neither player can use it 
 as an in-game item.
 
+ 6.40 	An Alchemist’s Laboratory is a collection of lab equipment.
+ 6.40.1 	A Alchemist’s Laboratory will only function for a Savant
+ 6.40.2 	An Alchemist’s Laboratory allows a Savant to use 10 production points 
+from other sources, in addition to the 20 on their character sheet.
+ 6.40.3 	An Alchemist’s Laboratory is considered to be worth 100 coin according to 
+the Estimate Value skill.
+ 6.40.4 	An Alchemist’s Laboratory is an in-game, stealable item.
+ 6.40.5 	In order to steal an Alchemist’s Laboratory the entire collection must be 
+taken; stealing one Erlenmeyer flast does not disable the laboratory, nor is it worth 
+anything by itself.
+ 6.40.6 	An Alchemist’s Laboratory costs 100 coin to create
+
 
  7 	Combat
 
@@ -3936,14 +3987,15 @@ glue, tape, or some other adhesive.
 rejected.
 
 
- 7.9 	Non-Martial Weapons are weapons that are 30 inches or less in length.
+ 7.9 	Non-Martial Weapons are weapons that are 35 inches or less in length.
 
  7.9.1 	Non-Martial Weapons may be used in one hand or two.
 
- 7.10 	Martial Weapons are longer than 30 inches but not more than 42 inches long.
+ 7.10 	Martial Weapons are longer than 35 inches but not more than 45 inches long.
 
  7.10.1 	Martial Weapons may be used in one hand or two.
- 7.11 	Great Weapons are longer than 42 inches.
+
+ 7.11 	Great Weapons are longer than 45 inches.
 
  7.11.1 	Great Weapons must be used with two hands.
 
@@ -3962,7 +4014,7 @@ delivered as a straight thrust that is immediately withdrawn back to both hands.
  7.12.2 	Thrown weapons must weigh no more than 6 ounces.
 
  7.12.3 	Thrown weapons must be at least 6 inches in one dimension, and no longer 
-than 30 inches.
+than 35 inches.
 
  7.12.4 	Thrown weapons must look like weapons, either knives, axes, or some 
 other historical or fantasy weapon. No throwing “rocks”, “disks” or “paddles” are 
@@ -3988,7 +4040,7 @@ encouraged to incorporate some open-cell foam into the ends of their javelin
 designs.
 
  7.14 	Throwing Weapon Masters with Great Weapon Training may use throwing spears, 
-which are over 42 inches long but less than 84 inches long, and may be used as a 
+which are over 45 inches long but less than 84 inches long, and may be used as a 
 Great Weapon in melee.
 
  7.14.1 	Throwing spears may be thrown for a character's normal melee damage 
@@ -4148,54 +4200,56 @@ physical armor, damage requirement, Body points, Wounds.
 
  7.23.1 	The call “Pierce” ignores magical and physical armor.
 
- 7.23.2 	Magical armor covers the entire body with no gaps in coverage
+ 7.23.2 	The call “Slay” ignores any Monstrous qualities, dealing full damage
 
- 7.23.3 	Physical armor only protects the areas it actually covers.
+ 7.23.3 	Magical armor covers the entire body with no gaps in coverage
 
- 7.23.4 	An area that has at least 75% coverage is considered to be completely 
+ 7.23.4 	Physical armor only protects the areas it actually covers.
+
+ 7.23.5 	An area that has at least 75% coverage is considered to be completely 
 covered.
 
- 7.23.5 	The physical armor granted by a helmet is always deducted first.
+ 7.23.6 	The physical armor granted by a helmet is always deducted first.
 
- 7.23.6 	Loss of armor is not locational. If, for example, the armor on your leg is 
+ 7.23.7 	Loss of armor is not locational. If, for example, the armor on your leg is 
 destroyed, all your armor is destroyed.
 
- 7.23.7 	Physical armor automatically recovers between events.
+ 7.23.8 	Physical armor automatically recovers between events.
 
- 7.23.8 	Body points are not locational. If, for example, you lose a Body point from 
+ 7.23.9 	Body points are not locational. If, for example, you lose a Body point from 
 being struck on the arm, that Body point is also gone from all other areas.
 
- 7.23.9 	Body Points and limb wounds recover automatically between events.
+ 7.23.10 	Body Points and limb wounds recover automatically between events.
 
- 7.23.10 	When a player has no further Body points, subsequent hits will cause a 
+ 7.23.11 	When a player has no further Body points, subsequent hits will cause a 
 Wound on the location struck.
 
- 7.23.11 	If a hit inflicts so much damage that it reduces a character's Body points to 
+ 7.23.12 	If a hit inflicts so much damage that it reduces a character's Body points to 
 a negative value in a single shot, a wound is automatically caused in the area 
 struck.
 
- 7.23.12 	Wounds to a limb render the limb useless.
+ 7.23.13 	Wounds to a limb render the limb useless.
 
- 7.23.13 	Anything carried in the hand of a Wounded arm must be dropped.
+ 7.23.14 	Anything carried in the hand of a Wounded arm must be dropped.
 
- 7.23.14 	A Wounded leg must be dragged and cannot bear any weight.
+ 7.23.15 	A Wounded leg must be dragged and cannot bear any weight.
 
- 7.23.15 	Hopping on one leg is not permitted.
+ 7.23.16 	Hopping on one leg is not permitted.
 
- 7.23.16 	A player with two Wounded legs must remain on his knees and is 
+ 7.23.17 	A player with two Wounded legs must remain on his knees and is 
 immobile, but may turn to face any direction.
 
- 7.23.17 	Wounds to the torso render the character in a helpless state of near 
+ 7.23.18 	Wounds to the torso render the character in a helpless state of near 
 unconsciousness and a great deal of pain. Characters with torso Wounds must fall 
 to the ground. They may not move, can take no actions, and cannot use any non-
 automatic skills. Characters with torso Wounds are allowed to feebly cry out for 
 help in a last desperate attempt to save their life, and may speak, albeit haltingly, 
 to other players.
 
- 7.23.18 	Characters that receive a torso Wound have ten minutes to get healing or 
+ 7.23.19 	Characters that receive a torso Wound have ten minutes to get healing or 
 they will die.
 
- 7.23.19 	Torso Wounds do not heal between events.
+ 7.23.20 	Torso Wounds do not heal between events.
 
 
  7.24 	Killing blows are used to dispatch characters that are incapacitated or near death, 
@@ -4334,7 +4388,7 @@ stainless steel, nickel-plated steel, or anodized aluminum are allowed.
 
  7.30 	Monstrous armor takes only one damage from sources without the Slay ability.
 
- 7.30.1 	The Monstrous ability is only granted to areas covered with 3 point or 4 
+ 7.30.1 	The Monstrous quality is only granted to areas covered with 3 point or 4 
 point armors, not to areas covered by lesser armors being counted as a greater 
 points value to match torso armor.
 
@@ -4444,7 +4498,16 @@ without fauld, tassets and gorget, makes it half plate armor.
 
  7.39 	The following offer Five points of armor:
 
-*	Any four point armor with a helmet.
+ 7.39.1 	Any four point armor with a helmet.
+
+ 7.40 	A Player/Creature with the monstrous type has several attributes
+
+ 7.40.1 	Monstrous creatures will only receive one damage from any attack, unless 
+the attack has the ‘Slay’ descriptor. Then it will take full damage
+
+ 7.40.2 	Monstrous creatures are immune to Pin effects and Pit Traps
+
+ 7.40.3 	Monstrous creatures may deal up to four damage when dual wielding.
 
  8 	Positions at Kingdoms of Novitas 
 
@@ -4478,7 +4541,7 @@ times.
  8.2.1 	Lead NPCs must follow all NPC rules as well as lead NPC rules.
  8.2.2 	Lead NPCs will lead the group of NPCs once outside of logistics
  8.2.3 	Lead NPCs will carry a time piece with them while outside of logistics.
- 8.2.4 	Lead NPCs will carry a walkie talkie with them while outside of logistics.
+ 8.2.4 	Lead NPCs will carry a cell phone with them while outside of logistics.
  8.2.5 	Lead NPCs will help the GM gather and organize other NPCs
  8.2.6 	Lead NPCs will report to the GM once back at logistics to give them an 
 After Action Report.
@@ -4526,7 +4589,7 @@ reward the players that participate in their encounters.
  8.4.6 	Anyone looking to become a Game Master must have good attendance.
  8.4.6.1 	Anyone who meets the attendance requirement will be allowed to 
 take the GM test.
- 8.4.6.2 	The GM test is administered once a year at the Feb Feast.
+ 8.4.6.2 	The GM test is administered once a year at the Staff Retreat.
  8.4.6.3 	The Test consists of multiple choice and short answer questions.
  8.4.6.4 	A Score of 80% or better must be met in order to pass.
  8.4.6.5 	Once a person has passed the test they will need to find a current 
@@ -4540,6 +4603,8 @@ passed the test.
 will have to wait to Apprentice until they do.
  8.4.6.10 	Apprentice Game Masters must adhere to the same rules as normal 
 Game Masters.
+ 8.4.6.11 	GM candidates must be 18 years of age before they will be 
+considered for GM positions.
  9 	Traps
  9.1 	Traps come in three categories: Single step mechanisms, contraptions, and zero-
 level traps.
@@ -4924,7 +4989,7 @@ of out-of-game knowledge of the rules. Telling a first time player incorrect val
 for coins, or abusing a player’s inexperience in any other manner, is frowned 
 upon.
  11.3.9 	Players who abuse the property of Kingdoms of Novitas or facilities being 
-used by Kingdoms of  Novitas are cheating. This could include littering, breaking 
+used by Kingdoms of Novitas are cheating. This could include littering, breaking 
 windows, destroying props, and similar acts of vandalism.
  11.3.10 	These are only examples of in-game offenses, and players are still bound 
 by all state and federal laws of the area the game is held.
@@ -4950,7 +5015,7 @@ are best reserved for habitual offenders.
  11.4.3.2 	Suspension can last from one to three full events.
  11.4.3.3 	Site fees and/or donations will not be refunded to a player if they 
 are suspended.
- 11.4.3.4 	A panel of three Game Masters most vote unanimously to enforce a 
+ 11.4.3.4 	A panel of three Marshals must vote unanimously to enforce a 
 suspension.
  11.4.4 	Expulsion permanently removes a player's privileges to participate at 
 Kingdoms of Novitas.  Expulsion is reserved for players who have become 
@@ -4960,10 +5025,11 @@ multiple times, or committed a real world crime while at Kingdoms of Novitas.
  11.4.4.2 	Expelled players may attend public demos, but only as spectators.
  11.4.4.3 	Site fees and/or donations will not be refunded to a player if they 
 expelled from play.
- 11.4.4.4 	A panel of three Game Masters voting unanimously is required to 
+ 11.4.4.4 	A panel of three Marshals voting unanimously is required to 
 enforce an expulsion.
 
  12 	Appendix A: Spell List (Kon Spell List 4.0.doc)
  13 	Appendix B: Alchemy List (KoN Alchemy List 4.0.doc)
+
 
 
