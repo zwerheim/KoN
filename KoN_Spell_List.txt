@@ -90,7 +90,7 @@ Duration: Instant
 Range: Tag Bag
 Dispel: Yes
 
-This spell calls into existence a single dart of non- magical energy. This dart, upon striking a target, will deal 4 poison damage to the area hit. This spell is NOT stopped by anti-magic defenses as it is not a magical effect. However, this spell CAN be resisted by Spirit Shield and Poison Immunity and CAN be blocked with a normal shield. The dart must be used within one minute after casting this spell or the dart will automatically dispel and is wasted.
+This spell calls into existence two (2) darts of non-magical energy or endow a weapon with poison for ten minutes. This dart, upon striking a target, will deal 4 poison damage to the area hit. This spell is NOT stopped by anti-magic defenses as it is not a magical effect. However, this spell CAN be resisted by Spirit Shield and Poison Immunity and CAN be blocked with a normal shield. The dart must be used within one minute after casting this spell or the dart will automatically dispel and is wasted. If you chose to endow a weapon, the enchantment lasts ten minutes. The weapon hits for poison damage. This spell does not increase the damage of the attack. It is legal for a character to fight with two endowed weapons, one in each hand. A blue flag must be visible, attached the lower part of the blade or cross guards (lower shaft of pole arms and maces), attached to the staff of the bow, or stock of the crossbow of the endowed weapon. Without the flag it is considered a normal weapon.
 
 Devastation 
 Type: Battle 
@@ -99,7 +99,7 @@ Duration: Instant
 Range: Tag Bag 
 Dispel: Yes 
 
-This spell creates four concentrated darts of magical force to be thrown at a target to inflict damage. The target hit by a Devastation dart receives four points of magical damage to the area hit. Hits to  an opponent’s shield or weapon count as hits to the arm holding the weapon or shield. The player is not allowed to set the dart down (this includes dropping the dart) and doing so will dispel the dart. The darts must be thrown to activate so the caster may not simply touch a target with a dart to inflict damage. One minute after casting this spell the dart automatically dispels and are wasted.
+This spell creates five (5) concentrated darts of magical force to be thrown at a target to inflict damage. The target hit by a Devastation dart receives four points of magical damage to the area hit. Hits to  an opponent’s shield or weapon count as hits to the arm holding the weapon or shield. The player is not allowed to set the dart down (this includes dropping the dart) and doing so will dispel the dart. The darts must be thrown to activate so the caster may not simply touch a target with a dart to inflict damage. One minute after casting this spell the dart automatically dispels and are wasted.
 Darts created by the Devastation spell ignore the Monstrous ability. Because of this, targets under the effects of  abomination, wearing plate armor, or monsters that naturally possess the Monstrous ability take the full four points of damage from a Devastation dart. The damage call for this spell is “Four Magic Slay!”
  
 Diagnosis 
@@ -299,7 +299,7 @@ Duration: Instant
 Range: Tag Bag
 Dispel: N/A
 
-This spell creates four (4) magic darts to be thrown at a target inflicting damage. The target hit by
+This spell creates five (5) magic darts to be thrown at a target inflicting damage. The target hit by
 a maelstrom  receives four points of Magic damage per dart to the area hit. Any hits to an opponent’s shield or weapon count as hits to the arm holding the weapon or shield. The player is not allowed to set the dart down (this includes dropping the dart) and doing so will dispel the dart. The darts must be thrown to activate so the caster may not simply touch a target with a dart to inflict damage. One minute after casting this spell the darts automatically dispel and so are wasted.
 
 Mageblade
@@ -476,7 +476,7 @@ Level: 4
 Duration: Instant
 Range: Tag Bag
 
-This spell calls into existence two darts of non- magical energy. These darts, upon striking a target, will deal 4 acid damage. This spell is NOT stopped by anti-magic defenses as it is not a magical effect. However, this spell CAN be resisted by Spirit Shield and Poison Immunity. The darts must be used within one minute after casting this spell or the darts will automatically disappear and is wasted.  Note that since these darts are non-magical, they cannot be channeled through a mageblade.
+This spell calls into existence four (4) darts of non- magical energy or endow a blade with acid for ten minutes. These darts, upon striking a target, will deal 4 acid damage. This spell is NOT stopped by anti-magic defenses as it is not a magical effect. However, this spell CAN be resisted by Spirit Shield and Poison Immunity. The darts must be used within one minute after casting this spell or the darts will automatically disappear and is wasted.  Note that since these darts are non-magical, they cannot be channeled through a mageblade. If you chose to endow a weapon, the enchantment lasts ten minutes. The weapon hits for acid damage. This spell does not increase the damage of the attack. It is legal for a character to fight with two endowed weapons, one in each hand. A blue flag must be visible, attached the lower part of the blade or cross guards (lower shaft of pole arms and maces), attached to the staff of the bow, or stock of the crossbow of the endowed weapon. Without the flag it is considered a normal weapon.
 
 Sanctify
 Type: Necromancy

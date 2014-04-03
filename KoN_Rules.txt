@@ -1074,17 +1074,17 @@ Maelstrom
 4
 4
 Level 3 Battle Spell
-Four magic darts dealing 4 points of damage each
-  Ruin
+Five magic darts dealing 4 points of damage each
+Ruin
 4
 4
 Level 3 Battle Spell
-  Two darts dealing 4 acid damage each
+Four darts dealing 4 acid damage each or touched weapon deals acid damage
 Devastation
 5
 5
 Level 4 Battle Spell
-Four magic darts dealing 4 Magic Slay damage each
+Five magic darts dealing 4 Magic Slay damage each
 Battle Mastery
 5
 5
@@ -1289,7 +1289,7 @@ Creeping Rot
 2
 2
 Level 1 Necromancy Spell
-Dart does 4 poison damage. (Non Magical)
+2 darts that deal 4 poison damage or poison weapon enchantment. (Non Magical)
 Sanctify
 3
 3
@@ -1461,9 +1461,7 @@ Target Touched is immune to Compulsion magic
 
  3.16.1.1  To earn this title, a player must learn: Body 1, Body 2, Body 3, Body 4, Melee Training, Melee Proficiency, Melee Expert, Melee Master, Two Weapon Training, Two Weapon Expert, Two Weapon Master, Great Weapon Training, Missile Training, Missile Proficiency, Missile Expert, Missile Master, Buckler Fighting, Shield Fighting, Thrown Weapon Training, and Thrown Weapon Master.
 
- 3.16.1.2  Weapon Masters may execute a “Master's strike” twice per game day, allowing the master to add either the Slay or Pierce descriptor to an attack.
-
-
+ 3.16.1.2  Weapon Masters may execute a “Master's strike” twice per game day, allowing the master to add either the Slay or Pierce descriptor to an attack for the players normal maximum damage.
 
  3.16.2  Savant
 
@@ -2216,7 +2214,9 @@ Creeping Rot (oil)
 
 
 
- 6.13.12  Alchemy items which cause damage, aside from Vial of Acid, deal Poison damage. Any Body damage, Limb wounds, and Torso wounds caused by poison damage require a Purify Spirit spell, or some other poison-nullifying effect before the poisoned wound or Body can be healed. (Players should call ‘no effect’ to Heal Body, Restore Limb, and Heal Mortal Wounds spells.)
+ 6.13.12  Alchemy items which cause damage, aside from Vial of Acid, deal Poison damage. Any Body damage, Limb wounds, and Torso wounds caused by poison damage require a Purify Spirit spell, or some other poison-nullifying effect before the poisoned wound or Body can be healed. (Players should call ‘no effect’ to Heal Body, Restore Limb, and Heal Mortal Wounds spells.)\
+
+ 6.13.12.1  Producing an Alchemy item which causes damage creates 2 copies of the consumable item.
 
  6.13.13  To apply an ingested poison compound, players must place a small green sticker no smaller than ½ inch in diameter on the affected item.
 
@@ -2386,6 +2386,7 @@ Goblin Iron weapons must have green striking surfaces.
 Elven Steel weapons must have black with white veins on striking surfaces.
 Magic weapons must have blue somewhere in their design.
 Nature weapons must have red striking surfaces.
+Primal Weapons must have red with black veins on striking surfaces
 
  6.29.4  All created weapons must pass an inspection for quality and safety at Logistics.
 
@@ -2394,6 +2395,8 @@ Nature weapons must have red striking surfaces.
  6.29.6  Weapons made of more than one exceptional material must conform to all the color requirements of their component materials. Usually this is accomplished by coloring each cutting surface of a sword as a different material.
 
  6.29.7  Goblin Iron and Elven steel are incompatible materials. Both cannot be in one weapon.
+
+ 6.29.8  Goblin Iron and Elven Steel are incompatible materials. You cannot have both in one weapon.
 
  6.30  Weapons created by a Weaponsmith are in-game, lootable items.
 
@@ -2842,6 +2845,8 @@ Contraption
 
  7.5.10  A player may only use one shield at a time.
 
+ 7.5.11  When using a shield, a player's maximum weapon damage is two.
+
 
  7.6  Turtling is when a player with a shield exposes only their head, and no legal target areas in their front 90 degree arc.
 
@@ -2924,7 +2929,7 @@ Contraption
  7.12.8  Coreless throwing weapons may not be used in melee.
 
 
- 7.13  Throwing Weapon Masters with Melee Training can also throw javelins, which are between 30 inches and 42 inches long, and can be used as Martial melee weapons.
+ 7.13  Throwing Weapon Masters with Melee Training can also throw javelins, which are between 30 inches and 84 inches long, and can be used as Martial melee weapons.
 
  7.13.1  Javelins less than 42 inches long must weigh no more than 12 ounces. Javelins above 42 inches long must weigh no more than 24 ounces.
 
